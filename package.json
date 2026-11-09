@@ -1,0 +1,24 @@
+{
+  "name": "the-four-of-us",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A cinematic treasure hunt into a private memory library — five leather-bound volumes behind real server-side authentication.",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "media": "node scripts/fetch-media.mjs",
+    "verify:media": "node scripts/verify-media.mjs",
+    "describe": "node scripts/describe-media.mjs",
+    "passwords": "node scripts/set-passwords.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "ffmpeg-static": "^5.2.0"
+  }
+}

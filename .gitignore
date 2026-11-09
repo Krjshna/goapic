@@ -1,0 +1,10 @@
+node_modules/
+media/.tmp/
+uploads/
+data/.media-cache.json
+data/uploads.json
+data/backups/
+config/archive.config.json
+.env
+.env.*
+*.log
